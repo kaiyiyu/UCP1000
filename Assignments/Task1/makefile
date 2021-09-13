@@ -3,7 +3,7 @@
 #    Purpose: This is the makefile for the laser tank game.
 
 CC = gcc
-CFLAGS = -Wall -Werror -g
+CFLAGS = -Wall -Werror -g -ansi -std=c89
 OBJ = main.o map.o tanks.o laser.o ucpSleep.o
 EXEC = laserTank
 
